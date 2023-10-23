@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("/static/background.png");
+    background-size: 20%;
+}
+
+/* Add some basic styling for the header bar */
+header {
+    text-align: left;
+    background-color: #090a11;
+    color: white;
+    position: fixed;
+    padding: 1rem;
+    width: 100%;
+    top: 0;
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-between;
+    flex-wrap: nowrap;
+}
+
+button {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin: 5px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #242532;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Add some padding and center the content */
+.content {
+    color: #fff;
+    margin-top: 100px;
+    padding: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+    image-rendering: crisp-edges;
+}
+/* Add some padding and center the content */
+.text {
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #fff;
+    background-color: #090a11;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+    border-radius: 10px;
+}

@@ -1,0 +1,53 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nightmare Warriors</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Header Bar -->
+    <header>
+        <img src={% static "NightmareWarriors-title.png" %}
+             alt="header-title" width=30% height=30% >
+      <div class="header-element">
+        <a href="https://github.com/Sprinter05/nightmare-warriors"><button>download</button></a>
+        <a href="/about"><button>about</button></a>
+      </div>
+    </header>
+    
+    
+    <!-- Content Section -->
+    <div class="content">
+      <img src={% static "NightmareWarriors-title.png" %} alt="title" width=100% height=100% >
+    </div>
+    <div class="text">
+      <p>In the depths of dreams, in a realm where reality blends with fantasy, an ordinary man named Manolo discovers an extraordinary power. Every night, when the world plunges into darkness, Manolo becomes the brave warrior of his dreams. In his dream world, reality twists, and dreams become tangible.</p>
+      
+      <p>A dark secret looms over this dream realm. A swarm of malevolent creatures, known as "Felipes," has invaded Manolo's dreams. These shadowy beings, whose forms change and twist like black smoke, are determined to plunge Manolo's world into an eternal nightmare.</p>
+      
+      <p>Manolo, however, is no ordinary dreamer. In his dream world, he becomes an intrepid hero, armed with his courage and a powerful gun that blasts through the shadows. Every night, while he sleeps, Manolo awakens in his dream realm and faces the waves of Felipes lurking in the shadows.</p>
+      
+      <p>In his quest to free his dreams and protect the realm from nightmares, Manolo must battle the hordes of Felipes. Every battle he fights in his dream world is a step toward victory and a step closer to uncovering the origin of these shadowy creatures. With his bravery as his guide and his sword as his shield, Manolo is determined to keep the light of hope alive even in the darkness of his dreams.</p>
+      
+      <p><strong>Can you help Manolo confront the Felipes and restore peace in his dream realm? Get ready for a journey of dreams and shadows in "Nightmare Warriors"!</strong></p>
+    </div>
+
+    <div class="content">
+      <img src={% static "Manolo64.png" %} alt="MANOLO" width=80% height=80% >
+    </div>
+
+    <div class="content">
+      <img src={% static "felipe.png" %} alt="FELIPE" width=80% height=80% >
+    </div>
+  </body>
+
+</html>
